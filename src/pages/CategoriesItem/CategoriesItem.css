@@ -1,0 +1,15 @@
+.categories {
+  margin-bottom: 65px;
+}
+.categories-bose {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+.categories-item {
+  padding-right: 25px;
+}
+
+.text-categories {
+  margin-top: 16px;
+}

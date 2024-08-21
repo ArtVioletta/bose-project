@@ -1,0 +1,14 @@
+.productsCategories {
+}
+
+.categories-items-container {
+  display: flex;
+  margin-top: 65px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productsBose {
+  size: 48px;
+  text-align: center;
+}

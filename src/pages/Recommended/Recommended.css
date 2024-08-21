@@ -1,0 +1,13 @@
+.bose {
+  width: 100%;
+  height: max-content;
+  padding: 120px;
+}
+.recommended-items-container {
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+}
+.textRec {
+  text-align: center;
+}
