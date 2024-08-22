@@ -4,7 +4,6 @@
 .categories-bose {
   flex-direction: row;
   display: flex;
-  flex-wrap: wrap;
 }
 .categories-item {
   padding-right: 25px;
@@ -12,4 +11,16 @@
 
 .text-categories {
   margin-top: 16px;
+}
+@media (max-width: 1200px) {
+  .categories-bose {
+    padding-top: 64px;
+    justify-content: center;
+  }
+  .categories-item {
+    width: 65%;
+  }
+  .image-two {
+    width: 31%;
+  }
 }

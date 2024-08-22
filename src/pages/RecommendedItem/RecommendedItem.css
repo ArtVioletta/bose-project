@@ -1,14 +1,14 @@
-.recommended-item {
+/* .recommended-item {
   flex-basis: 324px;
-}
+} */
 
 .product-title {
   font-size: 16px;
   line-height: 140%;
   margin-bottom: 8px;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .recommended-item {
     flex-basis: 324px;
   }
-}
+} */

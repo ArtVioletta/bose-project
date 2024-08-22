@@ -39,13 +39,9 @@
 }
 
 .burger {
-  position: fixed;
-  top: 20px;
-  right: 20px;
   background: none;
   border: none;
   cursor: pointer;
-  z-index: 1100;
 }
 
 .burger img {
@@ -57,9 +53,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .burger img {
-    margin-right: 70px;
-    margin-top: 30px;
   }
 }

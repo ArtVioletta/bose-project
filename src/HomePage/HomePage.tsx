@@ -4,9 +4,11 @@ import Menu from "../components/Menu/Menu";
 
 const HomePage = () => {
   return (
-    <div className="container" id="home">
-      <Menu />
-      <img src="/assets/Logo.png" alt="Logo" className="logo" />
+    <div className="hero-section" id="home">
+      <div className="header">
+        <img src="/assets/Logo.png" alt="Logo" className="logo" />
+        <Menu />
+      </div>
 
       <div className="sound">
         <img

@@ -1,13 +1,22 @@
 .bose {
   width: 100%;
   height: max-content;
-  padding: 120px;
+  padding: 64px 120px;
 }
-.recommended-items-container {
+.recommended-items {
   gap: 25px;
   display: flex;
   justify-content: center;
 }
 .textRec {
   text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .bose {
+    padding: 120px 72px;
+  }
+  .recommended-items {
+    flex-direction: column;
+  }
 }

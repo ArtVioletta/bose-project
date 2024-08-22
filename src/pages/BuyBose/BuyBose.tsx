@@ -2,7 +2,7 @@ import "./BuyBose.css";
 
 const BuyBose = () => {
   return (
-    <div className="buyBose" id="how-to-buy">
+    <div className="buyBose container" id="how-to-buy">
       <h1 className="fromBase">
         Why buy direct
         <br /> from Bose

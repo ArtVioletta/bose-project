@@ -3,7 +3,7 @@ import CategoriesItem from "../CategoriesItem/CategoriesItem";
 import "./Categories.css";
 const Categories = () => {
   return (
-    <div className="productsCategories" id="categories">
+    <div className=" container" id="categories">
       <h1 className="productsBose">
         Browse Bose
         <br /> products by category

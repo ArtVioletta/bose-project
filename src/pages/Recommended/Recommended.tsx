@@ -7,7 +7,7 @@ const Recommended = () => {
   return (
     <div className="bose" id="recommended">
       <h1 className="textRec">Recommended</h1>
-      <div className="recommended-items-container">
+      <div className="recommended-items">
         {recommendedBose.map((el, index) => (
           <RecommendedItem
             key={index}

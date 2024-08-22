@@ -12,8 +12,8 @@ export const productsCategories: ICategories[] = [
     text: "Speakers",
   },
   {
-    image: "/assets/man.png",
-    imagetwo: "/assets/girl.png",
+    image: "/assets/girl.png",
+    imagetwo: "/assets/man.png",
     text: "Audio sunglasses",
   },
 ];

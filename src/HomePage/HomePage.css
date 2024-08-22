@@ -1,10 +1,10 @@
-.container {
+.hero-section {
+  padding: 64px 120px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
   height: 100vh;
-  padding: 64px 120px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,16 +14,9 @@
 .text {
   color: black;
   margin-top: 40px;
-  padding: 0;
   text-align: left;
   position: relative;
   font-size: 48px;
-}
-
-.header_top {
-  display: flex;
-
-  justify-content: space-between;
 }
 
 .logo {
@@ -31,32 +24,28 @@
   height: 24px;
 }
 
-/* @media (max-width: 767px) {
-  .container img {
-    height: 100vh;
-    width: 100vw;
-  }
-} */
+.header {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
 
-@media (max-width: 1024px) {
-  .container {
-    padding: 64 72px;
-    background-position: 0;
-    background-image: url("../../public/assets/headphones-small.png");
+@media (max-width: 1200px) {
+  .hero-section {
+    padding: 64px 72px;
+    background-image: url("../../public/assets/headphones-ipad.png");
+  }
+
+  .sound-image {
+    width: 64px;
+    height: 76px;
   }
   .text {
     font-size: 40px;
   }
-}
-
-/* Адаптация для мобильных устройств (ширина экрана до 767px) */
-@media (max-width: 576px) {
-  .text {
-    font-size: 32px;
-    line-height: 100%;
-    font-style: italic;
-  }
-  .logo {
-    height: 16px;
+  .sound {
+    margin-bottom: -50px;
   }
 }
