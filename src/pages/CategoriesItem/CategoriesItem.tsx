@@ -4,7 +4,7 @@ import "./CategoriesItem.css";
 
 const CategoriesItem: React.FC<ICategories> = ({ image, imagetwo, text }) => {
   return (
-    <div className="categories">
+    <div className="categories-buy">
       <div className="categories-bose ">
         <img src={image} alt={text} className="categories-item" />
         <img src={imagetwo} alt={text} className="imageTwo" />

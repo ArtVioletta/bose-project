@@ -17,6 +17,10 @@
     padding: 120px 72px;
   }
   .recommended-items {
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
 }

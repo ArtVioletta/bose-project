@@ -35,6 +35,9 @@
 @media (max-width: 1200px) {
   .hero-section {
     padding: 64px 72px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("../../public/assets/headphones-ipad.png");
   }
 
@@ -47,5 +50,32 @@
   }
   .sound {
     margin-bottom: -50px;
+  }
+}
+@media (min-width: 580px) and (max-width: 992px) {
+  .hero-section {
+    padding: 64px 72px;
+    width: 100vh;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-section {
+    padding: 36px 20px;
+    height: 100vh;
+    background-position: center;
+    background-image: url("../../public/assets/headphones-mobile.png");
+  }
+  .sound-image {
+    width: 32px;
+    height: 38px;
+  }
+  .header {
+    gap: 129px;
   }
 }
