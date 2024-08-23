@@ -1,6 +1,3 @@
-.categories {
-  margin-bottom: 65px;
-}
 .categories-bose {
   flex-direction: row;
   display: flex;
@@ -20,7 +17,21 @@
   .categories-item {
     width: 65%;
   }
-  .image-two {
+  .imageTwo {
     width: 31%;
+  }
+  .text-categories {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 580px) and (max-width: 992px) {
+  .categories-item {
+    width: 56%;
+  }
+  .imageTwo {
+    width: 31%;
+  }
+  .text-categories {
+    padding-left: 35px;
   }
 }

@@ -3,12 +3,12 @@
 
 .categories-items-container {
   display: flex;
-  margin-top: 65px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .productsBose {
-  size: 48px;
   text-align: center;
+}
+@media (min-width: 580px) and (max-width: 992px) {
 }

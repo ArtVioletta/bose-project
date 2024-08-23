@@ -32,3 +32,15 @@ p {
   width: 100vw;
   padding-top: 50px;
 }
+
+@media (min-width: 580px) and (max-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+  .buyBose {
+    display: flex;
+    margin-top: 65px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
