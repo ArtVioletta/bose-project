@@ -1,4 +1,5 @@
 .productsCategories {
+  padding-top: 120px;
 }
 
 .categories-items-container {
@@ -6,9 +7,24 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.productsTitle {
+  text-align: center;
+}
 
 .productsBose {
   text-align: center;
 }
+
 @media (min-width: 580px) and (max-width: 992px) {
+  .productsCategories {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 490px) {
+  .productsCategories {
+    padding: 0 20px;
+  }
+  .productsTitle {
+    font-size: 32px;
+  }
 }

@@ -57,3 +57,9 @@
   .burger img {
   }
 }
+
+@media (max-width: 490px) {
+  .menu--open {
+    padding: 36px 20px;
+  }
+}

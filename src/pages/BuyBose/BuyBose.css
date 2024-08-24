@@ -1,7 +1,6 @@
 .buyBose {
   display: flex;
-  margin-top: 65px;
-  flex-wrap: wrap;
+  padding-top: 120px;
   justify-content: center;
 }
 
@@ -19,7 +18,9 @@ p {
   margin-left: 120px;
   line-height: 22.4px;
 }
+
 .great-product {
+  margin-top: 20px;
   padding-top: 40px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -37,10 +38,16 @@ p {
   h1 {
     font-size: 40px;
   }
-  .buyBose {
-    display: flex;
-    margin-top: 65px;
-    flex-wrap: wrap;
-    justify-content: center;
+  .fromBase {
+    letter-spacing: -1.5px;
+  }
+  .contentBose {
+    margin-left: 80px;
+  }
+
+  .great-product {
+    width: 285px;
+    padding-top: 15px;
+    font-size: 14px;
   }
 }
