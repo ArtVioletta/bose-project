@@ -17,6 +17,11 @@ const Footer = () => {
         alt="Bose Product"
         className="image-footer"
       />
+      <img
+        src="./assets/footer-mobile.png"
+        alt="Bose Product"
+        className="footer-mobile"
+      />
     </div>
   );
 };

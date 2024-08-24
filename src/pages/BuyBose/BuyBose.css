@@ -22,7 +22,6 @@ p {
 .great-product {
   margin-top: 20px;
   padding-top: 40px;
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
@@ -47,7 +46,22 @@ p {
 
   .great-product {
     width: 285px;
-    padding-top: 15px;
+    margin-top: 15px;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .buyBose {
+    padding: 120px 20px;
+    flex-direction: column;
+    text-align: left;
+  }
+  .fromBase {
+    font-size: 32px;
+  }
+  .contentBose {
+    margin-top: 32px;
+    margin-left: 0px;
   }
 }
