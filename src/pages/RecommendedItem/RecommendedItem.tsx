@@ -13,7 +13,7 @@ const RecommendedItem: React.FC<IRecommended> = ({
       <img src={image} alt={text} />
       <h3 className="product-title">{content}</h3>
       <p>{text}</p>
-      <p>${price}</p>
+      <p className="price">${price}</p>
     </div>
   );
 };

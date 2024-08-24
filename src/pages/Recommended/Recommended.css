@@ -4,6 +4,7 @@
   padding: 64px 120px;
 }
 .recommended-items {
+  padding-top: 65px;
   gap: 25px;
   display: flex;
   justify-content: center;
@@ -22,5 +23,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 490px) {
+  .textRec {
+    font-size: 32px;
   }
 }
